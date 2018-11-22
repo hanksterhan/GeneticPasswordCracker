@@ -134,9 +134,11 @@ class PasswordCracker():
     
     def getBestIndividualFromPopulation(self, population, password):
         """ return the member from the generation that has the highest fitness score
-            input:  population - list of strings, population in question
+            input:  
+                    population - list of strings, population in question
                     password - string
-            output: string - password with the highest fitness score in a generation
+            output: 
+                    string - password with the highest fitness score in a generation
         """
         return self.computePerfPopulation(population, password)[0]
 
