@@ -98,7 +98,6 @@ app.layout = html.Div(children=[
 def store_obj(nclicks, password, size_of_population, lucky_few, best_sample, num_children, num_generation, chance_of_mutation):
     GA = PasswordCracker()
     GA.multipleGeneration(num_generation, password, size_of_population, best_sample, lucky_few, num_children, chance_of_mutation)
-    # return (GA.returnResult(GA.historic, password, num_generation), graph_check)
     return (json.dumps(GA, default=lambda o: o.__dict__))
 
 # callback to take the object and display the best result and fitness score
