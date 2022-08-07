@@ -16,3 +16,4 @@ To launch the Dash Application, run the following command:
 The genetic algorithm is only executed when the "RUN" button is clicked, so users are free to change values without worrying about runtime constraints. The generated graph is also interactive.
 
 
+making changes
